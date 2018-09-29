@@ -11,6 +11,6 @@ dat=dat[1:] #remove header
 def kelly(x):
     return np.prod(1+dat*x) #Kelly vector product of time series
 
-max_x = fmin(lambda x: -kelly(x), 0, maxiter=25) #maxiter=25, ftol=0.01, xtol=.01 to solve for the maximum value
+max_x = fmin(lambda x: -kelly(x), 0, maxiter=25) #maxiter=25, ftol=0.01, xtol=.01 to solve for the maximum value (the Kelly bet)
 
-print max_x[0] # returns the kelly bet for imported time series
+print max_x[0] # returns the Kelly bet for imported time series
