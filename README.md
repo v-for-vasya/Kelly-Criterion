@@ -14,3 +14,4 @@ By betting the Kelly criterion amount we ensure that the median and average drif
 
 <code> your_time_series.csv </code> is the .csv data file one can use for percentage outcomes. In our 50/50 coin with 200% gains and 100% losses it would simply be <code> 2, -1 </code> within the .csv file. One can populate the file with thousands of data points, including returns for assets.
 
+For more information see: http://wduwant.com/kelly/
