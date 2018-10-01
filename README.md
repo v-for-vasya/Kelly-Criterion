@@ -1,6 +1,6 @@
 # Kelly-Criterion Application in Finance
 
-<code> kelly_max.py </code> solves for the maximum betting amount to ensure best longterm compounding as visualised in the blue point in the graph below. Current example is given for a 50/50 coin with a 200% gain on heads and a 100% loss on tails giving us a Kelly bet of 25%.
+<code>kelly_max.py</code> solves for the maximum betting amount to ensure best longterm compounding as visualised in the blue point in the graph below. Current example is given for a 50/50 coin with a 200% gain on heads and a 100% loss on tails giving us a Kelly bet of 25%.
 
 ![Kelly_maximum](https://github.com/v-for-vasya/Kelly-Criterion/blob/master/img/kellygraph.png)
 
