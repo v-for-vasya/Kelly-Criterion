@@ -18,6 +18,9 @@ By betting the Kelly criterion amount we ensure that the median and average drif
 
 Construction of a Kelly portfolio involves maximizing the geometric mean and minimizing the geometric standard deviation of returns while Markowitz focuses on maximizing the arithmetic mean and minimizing the arithmetic standard deviation of returns. Due to this phenomenon Kelly may allocate too much to one particular asset in a portfolio, but at the benefit of long-term compounding.
 
-<code> kelly_portfolio_weights.py </code> calculates the weights of a Kelly portfolio with three assets given as a default example. 
+<code>kelly_portfolio_weights.py</code> calculates the weights of a Kelly portfolio with three assets given as a default example by solving for the maximum of geometric compounding for the portfolio using sequential quadratic programming. The weights of each portfolio asset are bound to -100% to 100% and the sum of all asset weights is bound to 100%.
 
+The bounds <code>b<code> for the maximum allocation weight for each asset can be decreased as the number of assets increases if one wishes to focus on removing idiosyncratic risk.
+  
+  
 For more information see: http://wduwant.com/kelly/
