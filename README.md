@@ -14,4 +14,10 @@ By betting the Kelly criterion amount we ensure that the median and average drif
 
 <code> your_time_series.csv </code> is the .csv data file one can use for the evolution of one's stochastic process. In our 50/50 coin with 200% gains and 100% losses it would simply be <code> 2, -1 </code> within the .csv file. One can populate the file with thousands of data points.
 
+<h3> Kelly Portfolio </h3>
+
+Construction of a Kelly portfolio involves maximizing the geometric mean and minimizing the geometric standard deviation of returns while Markowitz focuses on maximizing the arithmetic mean and minimizing the arithmetic standard deviation of returns. Due to this phenomenon Kelly may allocate too much to one particular asset in a portfolio, but at the benefit of long-term compounding.
+
+<code> kelly_portfolio_weights.py </code> calculates the weights of a Kelly portfolio with three assets given as a default example. 
+
 For more information see: http://wduwant.com/kelly/
